@@ -10,6 +10,7 @@ df = pandas.DataFrame(data)
 st.title('Our First Streamlit App')
 st.subheader('Introducing Streamlit in Automate Everything with Python')
 st.write(''' 
-Aceasta este prim apagină web.
+Aceasta este prima pagină web.
 ''')
 st.write(df)
+st.line_chart(df)
